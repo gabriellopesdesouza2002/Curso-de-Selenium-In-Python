@@ -1,0 +1,148 @@
+1644345604105	geckodriver	INFO	Listening on 127.0.0.1:45555
+1644345604563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51843" "-no-remote" "-profile" "/tmp/rust_mozprofileJ8qKwk"
+1644345609994	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ8qKwk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51843/devtools/browser/d655c0d3-a1ad-43d2-9134-682b156d287e
+1644345620165	Marionette	INFO	Listening on port 45791
+1644345620686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yG/l/en_US/lmRxeYlKUEE.js?_nc_x=Ij3Wp8lg5Kz, line 20: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yG/l/en_US/lmRxeYlKUEE.js?_nc_x=Ij3Wp8lg5Kz, line 20: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yG/l/en_US/lmRxeYlKUEE.js?_nc_x=Ij3Wp8lg5Kz, line 20: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yG/l/en_US/lmRxeYlKUEE.js?_nc_x=Ij3Wp8lg5Kz, line 20: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1644345655626	Marionette	INFO	Stopped listening on port 45791
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644345923648	geckodriver	INFO	Listening on 127.0.0.1:47211
+1644345923687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51567" "-no-remote" "-profile" "/tmp/rust_mozprofilemYjtRr"
+1644345925138	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemYjtRr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51567/devtools/browser/d0cbcda0-366d-4f00-91a6-802c679e2673
+1644345929064	Marionette	INFO	Listening on port 42573
+1644345929345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644345929375	Marionette	INFO	Stopped listening on port 42573
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 828: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+ExceptionHandler::GenerateDump cloned child 22193
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1644428036187	geckodriver	INFO	Listening on 127.0.0.1:36185
+1644428036859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42457" "-no-remote" "-profile" "/tmp/rust_mozprofileF82E9A"
+1644428076126	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF82E9A/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42457/devtools/browser/6646c9d0-2413-4525-b037-9fae12927cc2
+1644428102694	Marionette	INFO	Listening on port 38627
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644428381088	geckodriver	INFO	Listening on 127.0.0.1:52519
+1644428381597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37093" "-no-remote" "-profile" "/tmp/rust_mozprofileZf9AJm"
+1644428388804	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZf9AJm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37093/devtools/browser/f98ff9c8-b894-4d51-a09f-17b31fccdcc1
+1644428402673	Marionette	INFO	Listening on port 37197
+1644428402881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644428403113	Marionette	INFO	Stopped listening on port 37197
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1644428423680	geckodriver	INFO	Listening on 127.0.0.1:58647
+1644428423758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50047" "-no-remote" "-profile" "/tmp/rust_mozprofileTLhEyY"
+1644428433696	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+1645799570375	geckodriver	INFO	Listening on 127.0.0.1:40143
+1645799570842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45103" "-no-remote" "-profile" "/tmp/rust_mozprofileAevXS5"
+
+(firefox:40896): Gtk-WARNING **: 11:32:53.089: Theme parsing error: gtk.css:7853:22: Expected '(' after 'url'
+
+(firefox:40896): Gtk-WARNING **: 11:32:53.089: Theme parsing error: gtk.css:7853:147: Invalid character in string. Must be escaped.
+
+(firefox:40896): Gtk-WARNING **: 11:32:53.107: Theme parsing error: gtk.css:11635:3: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:53.107: Theme parsing error: gtk.css:11741:2: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:53.108: Theme parsing error: gtk.css:11786:26: 'text-shadow' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:53.109: Theme parsing error: gtk.css:12046:14: 'ffffff' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.547: Theme directory panel/22-light of theme Mojave-CT-Light has no size field
+
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.547: Theme directory panel/16 of theme Mojave-CT-Light has no size field
+
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.722: Theme parsing error: gtk.css:7853:22: Expected '(' after 'url'
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.723: Theme parsing error: gtk.css:7853:147: Invalid character in string. Must be escaped.
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.736: Theme parsing error: gtk.css:11635:3: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.736: Theme parsing error: gtk.css:11741:2: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.736: Theme parsing error: gtk.css:11786:26: 'text-shadow' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.737: Theme parsing error: gtk.css:12046:14: 'ffffff' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.945: Theme parsing error: gtk.css:7853:22: Expected '(' after 'url'
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.945: Theme parsing error: gtk.css:7853:147: Invalid character in string. Must be escaped.
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.959: Theme parsing error: gtk.css:11635:3: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.959: Theme parsing error: gtk.css:11741:2: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.959: Theme parsing error: gtk.css:11786:26: 'text-shadow' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:56.960: Theme parsing error: gtk.css:12046:14: 'ffffff' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:57.046: Theme parsing error: gtk.css:7853:22: Expected '(' after 'url'
+
+(firefox:40896): Gtk-WARNING **: 11:32:57.046: Theme parsing error: gtk.css:7853:147: Invalid character in string. Must be escaped.
+
+(firefox:40896): Gtk-WARNING **: 11:32:57.060: Theme parsing error: gtk.css:11635:3: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:57.061: Theme parsing error: gtk.css:11741:2: '/*' in comment block
+
+(firefox:40896): Gtk-WARNING **: 11:32:57.061: Theme parsing error: gtk.css:11786:26: 'text-shadow' is not a valid color name
+
+(firefox:40896): Gtk-WARNING **: 11:32:57.062: Theme parsing error: gtk.css:12046:14: 'ffffff' is not a valid color name
+1645799577693	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAevXS5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45103/devtools/browser/04d324ef-9805-4eb4-8cbc-ede4e95a2022
+1645799592715	Marionette	INFO	Listening on port 37201
+1645799593038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645799623017	Marionette	INFO	Stopped listening on port 37201
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
