@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
-import pyautogui
 
 from random import randint
 chrome = Chrome()
@@ -35,7 +34,6 @@ def digita_com(key):
         ac.key_up(letra)
     ac.key_up(key)  # solta o shift
 
-# digita_com(Keys.SHIFT)
 digita_com(Keys.SHIFT)
 
 ac.perform()
