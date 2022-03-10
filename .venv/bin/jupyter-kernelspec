@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/media/gabriel/c94368a8-f395-4a90-8139-81aedde81902/home/gabriel/Documentos/My Documents/Curso de Selenium In Python/.venv/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from jupyter_client.kernelspecapp import KernelSpecApp
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(KernelSpecApp.launch_instance())

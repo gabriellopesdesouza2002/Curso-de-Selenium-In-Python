@@ -1,14 +1,13 @@
-calcular = '4 * 5 ='
+from selenium.webdriver import Chrome
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 
-print(len(calcular))
-calcular_format = calcular[:-1]
-primeiro_numero = calcular_format[0:2].strip()
-segundo_numero = calcular_format[-3:].strip()
-primeiro_numero = int(primeiro_numero)
-segundo_numero = int(segundo_numero)
+chrome = Chrome(executable_path=ChromeDriverManager().install())
+chrome.get('https://mail.google.com/mail/')
 
+wdw = WebDriverWait(chrome, 20)
 
-print(calcular_format)
-print(primeiro_numero)
-print(segundo_numero)
-print(primeiro_numero * segundo_numero)
+wdw.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#identifierId')))
+chrome.find_element(By.CSS_SELECTOR, '#identifierId').send_keys('meuemail@gmail.com')

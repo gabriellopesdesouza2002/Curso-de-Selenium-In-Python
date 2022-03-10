@@ -21,11 +21,16 @@ wdw = WebDriverWait(chrome, 60)
 # vai para o link
 chrome.get('https://selenium.dunossauro.live/exercicio_12.html')
 
-# espera o frame estar disponível quando disponível JA ENTRA NELE
-wdw.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'body > div > div > fieldset > form > div:nth-child(1) > input[type=text]')))
+# espera o item estar disponível quando disponível JA ENTRA NELE
+wdw.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[name=nome]')))
 
 # clica no nome
-chrome.find_element(By.CSS_SELECTOR, 'body > div > div > fieldset > form > div:nth-child(1) > input[type=text]').click 
+chrome.find_element(By.CSS_SELECTOR, 'input[name=nome]').click()
+
+
+alerta = wdw.until(EC.alert_is_present())  # vai para o alerta e espera por ele
+alerta.accept() 
+
 
 
 # quando disponível...
