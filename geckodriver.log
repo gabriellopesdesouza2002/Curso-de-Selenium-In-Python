@@ -425,3 +425,108 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1646852492055	Marionette	INFO	Stopped listening on port 36379
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 1646853476140	Marionette	INFO	Stopped listening on port 43559
+1646918089245	geckodriver	INFO	Listening on 127.0.0.1:40931
+1646918089255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileC1pUnV"
+1646918090742	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC1pUnV/search.json.mozlz4", (void 0)))
+1646918093957	Marionette	INFO	Listening on port 33347
+1646918094096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://selenium.dunossauro.live/js/brython_modules.js, line 1: ReferenceError: __BRYTHON__ is not defined
+1646918096105	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1646918126396	geckodriver	INFO	Listening on 127.0.0.1:36555
+1646918127404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileUfUPDX"
+1646918128552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUfUPDX/search.json.mozlz4", (void 0)))
+1646918131711	Marionette	INFO	Listening on port 33261
+1646918131839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646918136556	Marionette	INFO	Stopped listening on port 33261
+1646918370425	geckodriver	INFO	Listening on 127.0.0.1:33493
+1646918370441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileh4A9Cp"
+1646918371620	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh4A9Cp/search.json.mozlz4", (void 0)))
+1646918374995	Marionette	INFO	Listening on port 45131
+1646918375163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+1646918476858	Marionette	INFO	Stopped listening on port 45131
+1646918658356	geckodriver	INFO	Listening on 127.0.0.1:33973
+1646918658379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilefPLTnt"
+1646918659519	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefPLTnt/search.json.mozlz4", (void 0)))
+1646918662498	Marionette	INFO	Listening on port 44571
+1646918662638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+1646918688788	Marionette	INFO	Stopped listening on port 44571
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1646918689385	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+[2022-03-10T13:24:49Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "Arquivo ou diretório inexistente" })) }
+1646918723447	geckodriver	INFO	Listening on 127.0.0.1:47053
+1646918724445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilehQBiUa"
+1646918725562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehQBiUa/search.json.mozlz4", (void 0)))
+1646918728846	Marionette	INFO	Listening on port 32863
+1646918728970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+1646918874384	geckodriver	INFO	Listening on 127.0.0.1:45739
+1646918875382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilel6kMff"
+1646918876976	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel6kMff/search.json.mozlz4", (void 0)))
+1646918881191	Marionette	INFO	Listening on port 43785
+1646918881360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+1646920377655	geckodriver	INFO	Listening on 127.0.0.1:60425
+1646920378673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVVyfmw"
+1646920380821	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVVyfmw/search.json.mozlz4", (void 0)))
+1646920385762	Marionette	INFO	Listening on port 34247
+1646920386018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+JavaScript error: https://selenium.dunossauro.live/js/brython_modules.js, line 1: ReferenceError: __BRYTHON__ is not defined
+1646920426595	Marionette	INFO	Stopped listening on port 34247
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646920428513	Marionette	INFO	Stopped listening on port 43785
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1646920430352	Marionette	INFO	Stopped listening on port 32863
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1057: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1646920432438	Marionette	INFO	Stopped listening on port 33347
+1646920440314	geckodriver	INFO	Listening on 127.0.0.1:44581
+1646920441320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQQ5VGB"
+1646920442627	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQQ5VGB/search.json.mozlz4", (void 0)))
+1646920445375	Marionette	INFO	Listening on port 41951
+1646920445567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+1646920473153	geckodriver	INFO	Listening on 127.0.0.1:50729
+1646920474161	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileqEdnHZ"
+1646920475324	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqEdnHZ/search.json.mozlz4", (void 0)))
+1646920478457	Marionette	INFO	Listening on port 46685
+1646920478606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+JavaScript error: https://selenium.dunossauro.live/js/brython_modules.js, line 1: ReferenceError: __BRYTHON__ is not defined
+1646920567604	Marionette	INFO	Stopped listening on port 41951
+1646920569559	Marionette	INFO	Stopped listening on port 46685
+1646920598082	geckodriver	INFO	Listening on 127.0.0.1:57417
+1646920599089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilebvRRsB"
+1646920600427	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebvRRsB/search.json.mozlz4", (void 0)))
+1646920604294	Marionette	INFO	Listening on port 33511
+1646920604403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+1646920633829	geckodriver	INFO	Listening on 127.0.0.1:43277
+1646920633846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyiXx9y"
+1646920635595	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyiXx9y/search.json.mozlz4", (void 0)))
+1646920639075	Marionette	INFO	Listening on port 36061
+1646920639292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selenium.dunossauro.live"
+JavaScript error: https://selenium.dunossauro.live/js/brython_modules.js, line 1: ReferenceError: __BRYTHON__ is not defined
+1646920644231	Marionette	INFO	Stopped listening on port 36061
+1646920655049	Marionette	INFO	Stopped listening on port 33511
